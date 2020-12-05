@@ -1,0 +1,33 @@
+{
+	"name": "@todoo/parser",
+	"version": "0.0.1",
+	"description": "Task parser",
+	"keywords": [
+		"Parser",
+		"for",
+		"tasks"
+	],
+	"author": "Aleksei Zolotykh <aleksei_zolotykh@epam.com>",
+	"homepage": "",
+	"license": "MIT",
+	"main": "lib/parser.js",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"test": "jest"
+	},
+	"dependencies": {
+		"jest": "^26.6.3"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.12.7",
+		"@babel/preset-typescript": "^7.12.7",
+		"@types/jest": "^26.0.16",
+		"jest": "^26.6.3"
+	}
+}
