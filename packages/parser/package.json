@@ -1,8 +1,12 @@
 {
   "name": "@todoo/parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Task parser",
-  "keywords": ["Parser", "for", "tasks"],
+  "keywords": [
+    "Parser",
+    "for",
+    "tasks"
+  ],
   "author": "Aleksei Zolotykh <aleksei_zolotykh@epam.com>",
   "homepage": "",
   "license": "MIT",
@@ -11,7 +15,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest"
   },
